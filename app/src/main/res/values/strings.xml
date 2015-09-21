@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Seeing</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="action_personal_profile">个人资料</string>
+    <string name="discover">发现</string>
+    <string name="contact">好友</string>
+</resources>
