@@ -4,6 +4,7 @@ import android.app.ActionBar;
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -67,7 +68,8 @@ public class MainActivity extends Activity {
         //noinspection SimplifiableIfStatement
         switch (id) {
             case R.id.action_personal_profile:
-
+                Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
+                startActivity(intent);
                 return true;
             case R.id.action_settings:
 

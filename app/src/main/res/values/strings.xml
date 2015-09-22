@@ -6,4 +6,5 @@
     <string name="action_personal_profile">个人资料</string>
     <string name="discover">发现</string>
     <string name="contact">好友</string>
+    <string name="title_activity_profile">个人资料</string>
 </resources>
