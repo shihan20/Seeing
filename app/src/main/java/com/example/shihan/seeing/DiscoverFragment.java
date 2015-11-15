@@ -22,7 +22,7 @@ public class DiscoverFragment extends Fragment {
         Resources r = getResources();
         View view = inflater.inflate(R.layout.discover_view, container, false);
         CardContainer mCardContainer = (CardContainer) view.findViewById(R.id.card_container_view);
-        CardModel card = new CardModel("Title3", "Description goes here", r.getDrawable(R.drawable.img1));
+        CardModel card = new CardModel("Henry", "Description goes here", r.getDrawable(R.drawable.img1));
         SimpleCardStackAdapter adapter = new SimpleCardStackAdapter(this.getActivity());
         card.setOnClickListener(new CardModel.OnClickListener() {
             @Override
